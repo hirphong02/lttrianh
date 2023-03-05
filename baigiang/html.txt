@@ -1,0 +1,86 @@
+Buổi 1:
+HTML 5: Các thẻ trong html
+	* Thẻ <a> 
+		href="..."
+		tittle=".."
+		target=".."
+		- self: mở trình duyệt tại trang hiện tại
+		- blank/parent: mở trình duyệt tại web mới
+	- tác dụng thẻ a
+	  + Tạo liên kết
+	  + Điều hướng
+	  + Hỗ trợ gửi email (href="mailto:...")
+	  + Hỗ trợ gọi điện (href="tel:1234")
+
+	* Thẻ tạo danh sách
+	<ol>: thẻ tạo danh sách có thứ tự
+	<ul>: thẻ tạo danh sách không thứ tự
+	-kiểu đánh thứ tự
+	+ type=" a|A|i|I "
+	+ type="disc: hình dấu chấm
+	      circle: hình tròn rỗng
+	      sqare: hình vuông
+	--- Tìm hiểu <DD> <DL> <DI>
+	
+	* Thẻ tạo bảng
+	<tr>: khai báo 1 dòng
+	<th>: khai báo ô tiêu đề
+	<td>: khai báo 1 ô dữ liệu
+
+	span: gộp hàng và cột
+	colspan: gộp cột
+	rowspan: gộp hàng
+	
+	*Biểu mẫu - Form
+	<Form
+		action="" (chỉ định file code trên sever để xử lý form này)
+		methoh="" (Phương thức gửi dữ liệu lên cho sever)
+			Có 2 phương thức: Get: Dùng để gửi dữ liệu nhỏ đơn giản à không đòi hỏi tính bảo mật
+					  Post: Cho các trường hợp còn lại
+		enctype="" (cách mã hóa dữ liệu để gửi đi trên đường truyền)
+		Upload file "multipart-data"
+
+	1, <input type="....">
+	Các kiểu trong input:
+		*HTML cơ bản:
+	  - text: Nhập dữ liệu trên một dòng. Nội dung nhập đươc hiện rõ.
+	  - password: Nhập dữ liệu trên một dòng. Nội dung nhập được ẩn đi
+	  - radio: Chọn loại trừ 
+	  - checkbox: chọn đồng thời 
+	  - file: Upload file
+	  - hidden: Ẩn nội dung
+	  - button: Tạo giao diện nút bấm
+	  - submit: Gửi nội dung của form lên sever
+	  - reset: Khôi phục nội dung của form
+		*HTML 5:
+	  - url
+	  - email
+	  - color
+	  - date
+	  - datetime
+	  - ip
+	  ....
+	2, Combo-box
+	<select>
+		<option value="hn">Hà Nội</option>
+	</select>
+	3, Vùng văn bản
+	<textarea>...</textarea>
+
+
+
+	Phím Ctrl + H để thay đổi nhiều chữ giống nhau cùng lúc
+	
+	* Biểu thức chính quy
+		^ : Để bắt đầu 1 dòng
+		$ : Kết thúc 1 dòng
+		. : Kí tự bất kỳ
+		* : Không hoặc nhiều
+		+ : Một hoặc nhiều
+
+		\t : tab
+		\n : xuống dòng
+		() : nhóm
+
+		^(.*)\t(.*)\t(.*)\t(.*)\t(.*)$
+		

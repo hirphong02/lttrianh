@@ -1,0 +1,13 @@
+ưu tiên (id, class, thẻ tên)
+
+khai báo css (inline, internal, external)
+
+thuộc tính định dạng
+
+text-align: căn lề trái phải
+text-decoration: Trang trí chữ gạch chân/gạch giữa..
+text-transformation: Chuyển thành chữ hoa/chữ thường
+fort-family: font chữ arial/time.....
+
+
+position: static(đặt tĩnh ở trên trang)
